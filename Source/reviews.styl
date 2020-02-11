@@ -1,0 +1,30 @@
+.reveiws
+	height 888px
+	overflow hidden
+
+	.bigText
+		z-index -2
+	.paralacs
+		z-index -1
+
+.reveiwsIcon
+	display flex
+	&_item
+		display flex
+		align-items center
+		justify-content center
+		border 1px solid #7d7b7b
+		border-radius 50%
+		height 32px
+		width 32px
+		margin-left 12px
+		svg
+			fill #7d7b7b
+			height 16px
+			width 16px
+	&_item:hover
+		background #7d7b7b
+	&_item:hover svg
+		fill #ffffff
+	&_item:first-child
+		margin-left 0
